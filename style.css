@@ -71,10 +71,6 @@ body {
     height: 100vh;
 }
 
-input#checker {
-    width: 150px;
-}
-
 #layer {
     display: block;
     padding: 15px;

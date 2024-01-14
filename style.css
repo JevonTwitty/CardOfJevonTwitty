@@ -1,0 +1,124 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: white;
+}
+
+#linked-in {
+    border-radius: 0;
+    margin-bottom: 13px;
+}
+
+#linked-in:hover {
+    box-shadow: 0px 0px 50px #2a4a9c
+}
+
+.in-touch {
+    border-radius: 100%;
+}
+.in-touch:hover {
+    box-shadow: 0px 0px 50px black;
+ }
+
+.links {
+    display: inline-block;
+}
+
+body {
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+footer {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0px;
+}
+
+.aboutMe {
+    text-align: center;
+}
+
+
+#desc {
+    display: none;
+}
+
+
+#description {
+    color: white;
+    border: solid #35577D;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 30px;
+    text-align: left;
+}
+
+/*
+#description:hover {
+    color: white;
+    transition-duration: 3s;
+}
+*/
+
+body {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+input#checker {
+    width: 150px;
+}
+
+#layer {
+    display: block;
+    padding: 15px;
+    width: 125px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+/*
+#description {
+    display: none;
+}
+*/
+/*
+#checker:checked + #description {
+    display: block;
+}
+*/
+#personal {
+    background-color: transparent;
+    border: solid #35577D;
+    width: 125px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.accounts {
+    display: none;
+}
+
+#button {
+    background-color: transparent;
+    border: solid #35577D;
+    position: relative;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+#button:hover {
+    background-color: #141E30;
+    transition-duration: 0.5s;
+}
+
+#personal:hover {
+    background-color: #141E30;
+    transition-duration: 0.5s;
+}
